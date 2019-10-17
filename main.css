@@ -3,23 +3,33 @@
 .container{
     width: 1200px;
     margin: auto;
+    background-color: rgb(200, 200, 200);
 }
 
 .header{
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+
+    height: 40px;
+
 }
 
 footer{
-
+    height: 40px;
+    display: flex;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
 /*specific to page*/
 .body{
+    position: relative;
     font-family: 'Oswald', sans-serif;
     font-size: 150px;
     color: rgba(255, 255, 255, .55);
@@ -42,6 +52,6 @@ a{
     background-image: url("./theview_imgs/DSC09805.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -170px;
+    background-position-y: -140px;
 }
 
