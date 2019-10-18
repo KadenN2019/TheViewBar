@@ -16,6 +16,30 @@
 
 }
 
+.main{
+    color: white;
+}
+
+.socials {
+    display:flex;
+    font-size:25px;
+    justify-content:center;
+    align-items:center;
+}
+
+#fb {
+    padding:2px;
+}
+
+#insta {
+    padding:2px;
+
+}
+
+#twitter {
+    padding:2px;
+}
+
 footer{
     height: 40px;
     display: flex;
