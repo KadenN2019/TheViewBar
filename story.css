@@ -1,5 +1,7 @@
 /*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
 /*general*/
+
 .container{
     width: 1200px;
     margin: auto;
@@ -11,9 +13,11 @@
     display: flex;
     justify-content: space-between;
     font-size: 25px;
-
     height: 40px;
+}
 
+.body {
+    height:600px;
 }
 
 footer{
@@ -47,32 +51,17 @@ a{
     color: black;
 }
 
-
-/*specific to page*/
-.body{
-    position: relative;
+.story {
     font-family: 'Oswald', sans-serif;
-    font-size: 150px;
-    color: rgba(255, 255, 255, .55);
-    /* display: flex;
-    text-align: center;
-    align-items: center;
-    position: relative; */
-}
-
-.text{
+    text-align:center;
+    font-size:20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#strip-img{
-    width: 1200px;
-    height: 600px;
-    background-image: url("./theview_imgs/DSC09805.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -140px;
+p img {
+    height:300px;
+    width:50%;
 }
-
