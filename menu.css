@@ -1,0 +1,64 @@
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*general*/
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(200, 200, 200);
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    height: 40px;
+}
+
+footer{
+    height: 40px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+#appetizers{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 5px 0px 0px;
+}
+
+#entrees2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 5px 0px 0px;
+}
+
+#desserts2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 5px 0px 0px;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 8px 0px 0px;
+}
+
+.details{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.detail-indv{
+    padding: 0px 10px 0px 0px;
+}
