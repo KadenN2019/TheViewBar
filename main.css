@@ -1,4 +1,5 @@
 /*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
 /*general*/
 .container{
     width: 1200px;
@@ -11,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     font-size: 25px;
-
     height: 40px;
 
 }
@@ -26,6 +26,10 @@ a{
     color: black;
 }
 
+a:hover{
+    color: white;
+}
+
 
 /*specific to page*/
 .body{
@@ -33,10 +37,6 @@ a{
     font-family: 'Oswald', sans-serif;
     font-size: 150px;
     color: rgba(255, 255, 255, .55);
-    /* display: flex;
-    text-align: center;
-    align-items: center;
-    position: relative; */
 }
 
 .text{
@@ -48,10 +48,10 @@ a{
 
 #strip-img{
     width: 1200px;
-    height: 600px;
+    height: 650px;
     background-image: url("./theview_imgs/DSC09805.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -140px;
+    background-position-y: -110px;
 }
 
