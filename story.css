@@ -20,6 +20,10 @@
     height: 720px
 }
 
+.main{
+    color: white;
+}
+
 footer{
     height: 200px;
     display: flex;
