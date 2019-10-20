@@ -10,6 +10,7 @@
 .header{
     font-family: 'Oswald', sans-serif;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: 25px;
     height: 40px;
@@ -82,10 +83,15 @@ a:hover{
     font-family: 'Oswald', sans-serif;
     font-size: 150px;
     color: rgba(255, 255, 255, .55);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+    margin: 5px 0px;;
 }
 
 .text{
     position: absolute;
+    height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
