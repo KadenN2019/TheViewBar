@@ -15,6 +15,14 @@
     height: 40px;
 }
 
+.body{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 0px;
+}
+
 footer{
     height: 40px;
     display: flex;
