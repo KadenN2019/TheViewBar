@@ -13,7 +13,6 @@
     justify-content: space-between;
     font-size: 25px;
     height: 40px;
-
 }
 
 .main{
@@ -90,7 +89,7 @@ textarea {
     border:2px solid gray;
     font-family:'Raleway', sans-serif;
     font-size:15px;
-    width:300px;
+    width:318px;
     outline: none;
     color:black;
     margin-bottom:25px;
@@ -102,7 +101,7 @@ select {
     font-size:15px;
     border:2px solid gray;
     color: black;
-    width:300px;
+    width:322px;
     outline: none;
     margin-bottom:25px;
     margin-top: -15px;
@@ -118,6 +117,15 @@ input {
     outline: none;
     color:black;
     margin-top: -15px;
+}
+
+input:hover, select:hover, textarea:hover {
+    border: 2px solid black;
+}
+
+#sbt {
+    width:323px;
+    cursor:pointer;
 }
 
 .body {
@@ -147,4 +155,3 @@ input {
 label {
     color:rgba(255, 255, 255, .7);
 }
-
